@@ -55,5 +55,6 @@ CMD cat /etc/hosts >/etc/hosts.bak && \
     echo "root:root" | chpasswd &> /dev/null && \
     /usr/sbin/sshd -o PermitRootLogin=yes -o PrintMotd=no 2>/dev/null && \
     dockerd &>/docker.log & \
+    echo "I am here" & \
     while true ; do script -q -c "/bin/bash -l" /dev/null ; done
 # ... and then put a shell in the foreground, restarting it if it exits

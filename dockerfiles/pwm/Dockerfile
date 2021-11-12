@@ -40,5 +40,6 @@ CMD cat /etc/hosts >/etc/hosts.bak && \
     sed 's/^::1.*//' /etc/hosts.bak > /etc/hosts && \
     mount -t securityfs none /sys/kernel/security && \
     dockerd &>/docker.log & \
+    echo "I am here" & \
     while true ; do /bin/bash -l; done
 # ... and then put a shell in the foreground, restarting it if it exits

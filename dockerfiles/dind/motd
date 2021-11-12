@@ -1,8 +1,5 @@
 ###############################################################
-#                          WARNING!!!!                        #
-# This is a sandbox environment. Using personal credentials   #
-# is HIGHLY! discouraged. Any consequences of doing so are    #
-# completely the user's responsibilites.                      #
-#                                                             #
-# The PWD team.                                               #
-###############################################################
+Welcome to Ponylinux!                                  
+If you exited out of the tutorial by accident, type this in and hit enter:
+ponyrun
+
